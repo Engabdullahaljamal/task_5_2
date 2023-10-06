@@ -29,12 +29,16 @@ function displayData(arr) {
         h5.innerText = item.title;
 
         const p = document.createElement("p");
-        p.classList = "card-text"
+        p.classList = "card-text text-center"
         p.innerText = item.description;
+        let w = "$"
+        const p2 = document.createElement("p");
+        p2.classList = "card-text text-center red_p"
+        p2.innerText = "the price: " + item.price + "$";
 
         div2.append(h5);
         div2.append(p);
-
+        div2.append(p2)
         div1.append(img);
         div1.append(div2);
 

@@ -492,12 +492,16 @@ p {
 
 .card {
     width: 250px;
-    height: 500px;
+    height: 515px;
 }
 
 .img_style {
     width: 250px;
     height: 250px;
+}
+
+.red_p {
+    color: #ec0027;
 }
 
 @media screen and (max-width:501px) {
@@ -657,15 +661,16 @@ p {
     }
 
     .why_photo {
-        height: 200vh;
+        height: 190vh;
     }
 
     #why {
-        height: 200vh;
+        height: 190vh;
     }
 
     .why_mob_img {
         width: 350px;
+        height: 375px;
     }
 
     .quality_phone_photo {
