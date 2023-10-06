@@ -1,0 +1,711 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+nav {
+    position: fixed;
+    z-index: 100;
+}
+
+
+.sec_part {
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+    gap: 20px;
+    padding-top: 10px;
+
+
+}
+
+
+.sec_part a {
+    text-decoration: none;
+    color: black;
+
+
+}
+
+.navbar-brand {
+    padding: 0px 6px;
+    color: purple;
+    border: 4px solid #1e148b;
+    font-size: 25px;
+    font-weight: bold;
+
+}
+
+.navbar-brand:hover {
+    color: darkorchid;
+}
+
+.navbar-toggler {
+    border: none;
+    font-size: 14px;
+
+}
+
+.offcanvas {
+    margin-top: 72px;
+
+}
+
+.flag_img {
+    width: 30px;
+    height: 15px;
+    padding-left: 10px;
+}
+
+#carouselExampleFade {
+    margin-top: 72px;
+}
+
+.carousel_img {
+    position: relative;
+}
+
+.first_content,
+.sec_content,
+.third_content {
+
+
+    position: absolute;
+    /* background-color: rgb(0, 0, 0, 0.2); */
+    color: white;
+    top: 0;
+    right: 33%;
+    transform: translate(50%, 50%);
+    padding: 20px;
+    border-radius: 4px;
+    width: 600px;
+
+}
+
+.first_content h1,
+.sec_content h1,
+.third_content h1 {
+    font-size: 80px;
+    font-weight: bolder;
+}
+
+.first_content button,
+.sec_content button,
+.third_content button {
+    font-size: 20px;
+    color: white;
+    background-color: #000;
+    border: 3px solid white;
+    width: 220px;
+    height: 60px;
+    border-radius: 50px;
+    margin-left: 160px;
+    margin-top: 20px;
+}
+
+.sec_content {
+    bottom: 70%;
+    right: 70%;
+    color: #000;
+}
+
+.sec_content button {
+    color: #000;
+    background-color: white;
+    border: 3px solid black;
+}
+
+/* .third_content {} */
+
+.first_content button:hover,
+.sec_content button:hover,
+.third_content button:hover {
+    background-color: #ec0027;
+    border-color: #ec0027;
+}
+
+.sec_content button:hover {
+    color: white;
+}
+
+#free_shopping_sec {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 150px;
+    padding: 20px 20px;
+    padding-top: 50px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: #f9f9f9;
+}
+
+.shopping_content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+    width: 300px;
+
+}
+
+.shopping_content img {
+    height: 50px;
+    margin-bottom: 15px;
+}
+
+.shopping_content p {
+    color: #8a8a8a;
+}
+
+.a_style {
+    font-size: 16px;
+    font-weight: bold;
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+
+}
+
+hr {
+    padding: 0px;
+    margin: 0px;
+
+}
+
+.a_style:hover {
+    color: #ec0027;
+}
+
+#essential_sec {
+    padding: 50px 25px;
+}
+
+p {
+    color: #8a8a8a;
+}
+
+.essential_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+
+}
+
+.essential_content {
+    padding: 50px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 5px;
+
+}
+
+.essential_content img {
+    margin-bottom: 50px;
+}
+
+.a_font {
+    font-size: 20px;
+    width: max-content;
+}
+
+#performance_sec {
+    padding: 50px 0px;
+}
+
+#performance_sec p {
+    color: black;
+}
+
+
+.performance_sec_con {
+    display: flex;
+    gap: 50px;
+    position: relative;
+    margin-bottom: 50px;
+
+}
+
+.line_type_one,
+.line_type_two {
+    width: 1px;
+    height: 170px;
+    background-color: #000;
+    position: absolute;
+    bottom: 185px;
+    margin-left: 142px;
+
+
+
+}
+
+.line_type_one {
+    height: 100px;
+    bottom: 255px;
+}
+
+.performance_sec_content {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#Qualities {
+    padding: 50px 25px;
+}
+
+.qualities_container {
+    padding-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.qualities_content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    flex-direction: column;
+}
+
+.qualities_content p {
+    width: 250px;
+}
+
+.qual_img_one {
+    height: 70px;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+
+.qual_img_two {
+    height: 70px;
+    margin-right: 10px;
+    margin-top: 20px;
+
+}
+
+.parent {
+    position: relative;
+    height: max-content;
+}
+
+.why_photo {
+    position: absolute;
+    width: 100vw;
+    height: 117vh;
+}
+
+#why {
+    width: 100vw;
+    height: 117vh;
+}
+
+.chield {
+    position: absolute;
+    color: white;
+    top: 100px;
+    width: 100vw;
+}
+
+.why_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    margin-top: 50px;
+    flex-wrap: wrap;
+
+}
+
+.why_content {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 30px;
+
+
+}
+
+.why_mob_img {
+    height: 70vh;
+}
+
+
+.accordion {
+    width: 500px;
+    --bs-accordion-color: white;
+    --bs-accordion-bg: none;
+    --bs-accordion-active-bg: none;
+    --bs-accordion-btn-focus-box-shadow: none;
+    --bs-accordion-btn-color: white;
+    --bs-accordion-active-color: none;
+    --bs-accordion-border-color: #474849;
+
+
+
+
+}
+
+.accordion-button::after {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' height='1em' viewBox='0 0 448 512'%3E%3C!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --%3E%3Cstyle%3Esvg%7Bfill:%23ffffff%7D%3C/style%3E%3Cpath d='M256 80c0-17.7-14.3-32-32-32s-32 14.3-32 32V224H48c-17.7 0-32 14.3-32 32s14.3 32 32 32H192V432c0 17.7 14.3 32 32 32s32-14.3 32-32V288H400c17.7 0 32-14.3 32-32s-14.3-32-32-32H256V80z'/%3E%3C/svg%3E");
+
+}
+
+.accordion-button:not(.collapsed)::after {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' height='1em' viewBox='0 0 448 512'%3E%3C!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --%3E%3Cstyle%3Esvg%7Bfill:%23ffffff%7D%3C/style%3E%3Cpath d='M432 256c0 17.7-14.3 32-32 32L48 288c-17.7 0-32-14.3-32-32s14.3-32 32-32l352 0c17.7 0 32 14.3 32 32z'/%3E%3C/svg%3E");
+
+
+}
+
+
+
+
+#new_arrivals {
+    padding: 60px 10px;
+
+}
+
+.new_arrivals_con {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+
+
+.red_back {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: black;
+    top: 50%;
+    border: 1px solid white;
+    margin: 0px 10px;
+}
+
+.red_back:hover {
+    border-color: #ec0027;
+    background-color: #ec0027;
+}
+
+#footer_sec {
+    width: 100vw;
+    height: max-content;
+
+}
+
+#footer_sec p {
+    color: white;
+    margin: 30px auto;
+}
+
+#footer_sec .parent {
+    height: 80vh;
+}
+
+#footer_sec .chield {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+
+}
+
+#footer_sec input {
+    width: 390px;
+    height: 50px;
+    border-radius: 30px;
+    padding-left: 25px;
+    font-size: 18px;
+    border: none;
+
+}
+
+
+
+#footer_sec .inp {
+    width: 450px;
+    height: 50px;
+
+    border-radius: 30px;
+    background-color: white;
+    display: flex;
+    gap: 0px;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.footer_button {
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+    background-color: black;
+    color: white;
+    border: none;
+    margin-left: 10px;
+    font-size: 30px;
+
+    /* top: 34px;
+    right: 420px; */
+}
+
+.footer_button:hover {
+    background-color: #ec0027;
+}
+
+.footer_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.footer_container a {
+    color: white;
+    text-decoration: none;
+
+}
+
+.footer_container a:hover {
+    color: #ec0027;
+}
+
+#footer_sec .why_photo {
+    height: 80vh;
+}
+
+.card {
+    width: 250px;
+    height: 500px;
+}
+
+.img_style {
+    width: 250px;
+    height: 250px;
+}
+
+@media screen and (max-width:501px) {
+    #offcanvasNavbar {
+        width: 300px;
+    }
+
+
+    .sec_part {
+        margin: 0 auto;
+        margin-top: 5px;
+        padding-left: 0px;
+
+    }
+
+    .navbar-brand {
+        margin: 0 auto;
+    }
+
+    .performance_sec_con p {
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width:1100px) {
+
+    .first_content h1,
+    .sec_content h1,
+    .third_content h1 {
+        font-size: 40px;
+
+
+    }
+
+    .per_img {
+        width: 100vw;
+    }
+
+    .line_type_one,
+    .line_type_two {
+        margin-left: 110px;
+    }
+
+    .line_type_two {
+        height: 130px;
+        bottom: 220px;
+    }
+
+    .why_photo {
+        position: absolute;
+        width: 100vw;
+        height: 170vh;
+    }
+
+    #why {
+        width: 100vw;
+        height: 170vh;
+    }
+}
+
+@media screen and (max-width:800px) {
+
+    .first_content h1,
+    .sec_content h1,
+    .third_content h1 {
+        font-size: 25px;
+
+    }
+
+    .first_content h2,
+    .sec_content h2,
+    .third_content h2 {
+        font-size: 20px;
+    }
+
+    .first_content button,
+    .sec_content button,
+    .third_content button {
+        width: 100px;
+        height: 30px;
+        font-size: 10px;
+        border-width: 1px;
+        position: absolute;
+        left: 90px;
+
+
+    }
+
+    .first_content,
+    .third_content {
+        top: 80px;
+    }
+
+    #free_shopping_sec {
+        gap: 50px;
+    }
+
+    .essential_container {
+        flex-wrap: wrap;
+    }
+
+    .performance_sec_con {
+        flex-direction: column;
+
+    }
+
+    .line_type_one,
+    .line_type_two {
+        display: none;
+    }
+}
+
+@media screen and (max-width:590px) {
+
+    .first_content,
+    .sec_content,
+    .third_content {
+        width: 300px;
+    }
+
+    .first_content button,
+    .sec_content button,
+    .third_content button {
+        left: -58px;
+
+    }
+
+    .first_content,
+    .third_content {
+        top: 100px;
+    }
+
+    .sec_content {
+        top: 110px;
+    }
+
+    .first_content h1,
+    .sec_content h1,
+    .third_content h1 {
+        font-size: 15px;
+
+    }
+
+    .first_content h2,
+    .sec_content h2,
+    .third_content h2 {
+        font-size: 10px;
+    }
+
+    .carousel-item img {
+        height: 40vh;
+        margin-top: 30px;
+    }
+
+    .accordion {
+        width: 300px;
+    }
+
+    .why_photo {
+        height: 200vh;
+    }
+
+    #why {
+        height: 200vh;
+    }
+
+    .why_mob_img {
+        width: 350px;
+    }
+
+    .quality_phone_photo {
+        width: 350px;
+    }
+
+    .qual_img_one,
+    .qual_img_two {
+        height: 50px;
+    }
+
+    .red_back {
+        height: 25px;
+        width: 25px;
+
+    }
+
+
+}
+
+@media screen and (max-width:800px) {
+    #footer_sec input {
+        width: 290px;
+    }
+
+    #footer_sec .inp {
+        width: 350px;
+    }
+
+    #footer_sec .footer_container {
+        flex-direction: column;
+        gap: 50px;
+    }
+
+    #footer_sec span {
+        display: none;
+    }
+
+    #footer_sec .why_photo {
+        height: 130vh;
+    }
+
+}

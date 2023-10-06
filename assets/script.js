@@ -1,0 +1,54 @@
+
+fetch('https://dummyjson.com/products').then(function (result) {
+    return result.json();
+
+}).then(function (result) {
+    displayData(result.products);
+})
+
+
+let i = 0;
+
+function displayData(arr) {
+    arr.forEach(function (item) {
+
+        const cardsArea = document.querySelector('.cards_area');
+        const div1 = document.createElement('div');
+        div1.classList = "card";
+
+
+        const img = document.createElement("img")
+        img.src = item.images[0];
+        img.classList = "card-img-top img_style"
+
+        const div2 = document.createElement("div")
+        div2.classList = "card-body"
+
+        const h5 = document.createElement("h5");
+        h5.classList = "title text-center"
+        h5.innerText = item.title;
+
+        const p = document.createElement("p");
+        p.classList = "card-text"
+        p.innerText = item.description;
+
+        div2.append(h5);
+        div2.append(p);
+
+        div1.append(img);
+        div1.append(div2);
+
+        cardsArea.append(div1);
+
+    });
+
+}
+
+const dataFromLocalStorage = localStorage.getItem('data');
+
+
+
+
+
+
+
