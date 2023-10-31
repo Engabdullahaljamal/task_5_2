@@ -2,6 +2,11 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+
+}
+
+body {
+    overflow-x: hidden;
 }
 
 nav {
@@ -9,6 +14,9 @@ nav {
     z-index: 100;
 }
 
+/* .dropdown-menu {
+    width: 50px !important;
+} */
 
 .sec_part {
     display: flex;
@@ -60,6 +68,7 @@ nav {
 
 #carouselExampleFade {
     margin-top: 72px;
+    width: 100vw;
 }
 
 .carousel_img {
@@ -80,7 +89,6 @@ nav {
     padding: 20px;
     border-radius: 4px;
     width: 600px;
-
 }
 
 .first_content h1,
@@ -130,6 +138,7 @@ nav {
 }
 
 #free_shopping_sec {
+    width: 100vw;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -434,7 +443,6 @@ p {
     padding-left: 25px;
     font-size: 18px;
     border: none;
-
 }
 
 
@@ -442,14 +450,15 @@ p {
 #footer_sec .inp {
     width: 450px;
     height: 50px;
-
     border-radius: 30px;
     background-color: white;
     display: flex;
     gap: 0px;
     justify-content: flex-start;
     align-items: center;
+
 }
+
 
 .footer_button {
     height: 45px;
